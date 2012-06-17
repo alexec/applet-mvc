@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.alexecollins.applet-mvc</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>Applet Model-View-Controller</name>
+
+    <description>
+        An applet framework that allows you to use the MVC pattern to create
+        applets that can change view, in a similar method to web frameworks.
+    </description>
+
+    <url>http://www.alexecollins.com/?q=content/applet-model-view-controller</url>
+
+     <build>
+         <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+         </plugins>
+     </build>
+    <modules>
+        <module>core</module>
+        <module>example</module>
+    </modules>
+</project>
